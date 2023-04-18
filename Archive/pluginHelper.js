@@ -43,6 +43,7 @@ var pluginHelper = {
                         action: 'create',
                         resource: 'dataContext',
                         values: iDataSetDescription
+                        
                     };
                     tDataContextExistsPromise = codapInterface.sendRequest( tMessage );
                 }
